@@ -33,3 +33,11 @@ while (inicio < quantidadeDeEstudantes1){
 for (let numero = 1; numero <= 10; numero++){
     console.log(numero);
 }
+
+// **** Inserir na lista ****
+let listaDeEstudantes2 = ["Helena","Chico", "Mário", "Maria"];
+let quantidadeDeEstudantes2 = listaDeEstudantes2.length;
+
+listaDeEstudantes2.push("José");
+console.log(listaDeEstudantes2)
+
